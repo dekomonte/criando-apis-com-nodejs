@@ -2,9 +2,13 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
 const app = express();
 const router = express.Router();
+
+//Conexao com o banco de dados
+mongoose.connect('mongodb://root:Flamengo_2019$%40@localhost:27017/admin');
 
 //Carrega as rotas
 const indexRoutes = require('./routes/index-route');
