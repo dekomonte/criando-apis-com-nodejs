@@ -10,3 +10,6 @@ Curso [Criando APIs com Node](https://balta.io/cursos/criando-apis-com-node) da 
 
 * npm 10.9.0
 * Node.js v22.11.0
+* Postman
+* Docker [Instalação, Configuração e Primeiros Passos](https://blog.balta.io/docker-instalacao-configuracao-e-primeiros-passos/)
+* MongoDB (via Docker) [MongoDB Docker](https://blog.balta.io/mongodb-docker/)
