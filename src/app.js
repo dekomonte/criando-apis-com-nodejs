@@ -9,7 +9,7 @@ const app = express();
 const router = express.Router();
 
 // Connecta ao banco
-mongoose.connect('mongodb://root:Flamengo_2019$%40@localhost:27017/admin');
+mongoose.connect(config.connectionString);
 
 // Carrega os Models
 const Product = require('./models/product');
