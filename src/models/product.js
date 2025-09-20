@@ -9,9 +9,9 @@ const schema = new Schema({
         required: true,
         trim: true
     },
-    slug: { // Ex: Cadeira Gamer = cadeira-gamer
+    slug: {
         type: String,
-        required: true,
+        required: [true, 'O slug é obrigatório'],
         trim: true,
         index: true,
         unique: true
@@ -24,7 +24,7 @@ const schema = new Schema({
         type: Number,
         required: true
     },
-    active:{
+    active: {
         type: Boolean,
         required: true,
         default: true
@@ -32,7 +32,12 @@ const schema = new Schema({
     tags: [{
         type: String,
         required: true
-    }]
+    }],
+    image: {
+        type: String,
+        required: true,
+        trim: true
+    }
 });
 
-module.exports = mongoose.model('Product', schema); 
+module.exports = mongoose.model('Product', schema);

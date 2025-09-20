@@ -1,6 +1,6 @@
 'use strict';
 
-let errors = []; //lista de erros
+let errors = [];
 
 function ValidationContract() {
     errors = [];
@@ -11,7 +11,6 @@ ValidationContract.prototype.isRequired = (value, message) => {
         errors.push({ message: message });
 }
 
-//minimo de caracters
 ValidationContract.prototype.hasMinLen = (value, min, message) => {
     if (!value || value.length < min)
         errors.push({ message: message });
@@ -27,7 +26,6 @@ ValidationContract.prototype.isFixedLen = (value, len, message) => {
         errors.push({ message: message });
 }
 
-//validador de e-mail
 ValidationContract.prototype.isEmail = (value, message) => {
     var reg = new RegExp(/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/);
     if (!reg.test(value))

@@ -5,7 +5,7 @@ Curso [Criando APIs com Node](https://balta.io/cursos/criando-apis-com-node) da 
 #### Projeto do Curso
 "O projeto do curso é uma API para uma vitrine de um e-commerce. A API contém as operações para manipular Produtos (CRUD), e modelos como Cliente e Pedido de Compra. Serão implementadas validações de dados, requisições síncronas/assíncronas. Também a parte de segurança/autenticação implementando login via token utilizando JWT."
 
-### Conteúdo Programático
+### Conteúdo Programático (Ementa oficial direto do diretório original)
 * Instalação Node, NPM e VS Code
 * npm init e instalação dos pacotes
 * Criando um servidor Web
