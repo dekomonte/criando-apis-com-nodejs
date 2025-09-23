@@ -55,4 +55,4 @@ Curso [Criando APIs com Node](https://balta.io/cursos/criando-apis-com-node) da 
 * MongoDB (via Docker) [MongoDB Docker](https://blog.balta.io/mongodb-docker/)
 
 ---
-O repositório foi criado com fins educacionais, acompanhando as aulas, para consolidar conceitos de desenvolvimento de APIs em Node.js.
+*Esse repositório foi criado com fins educacionais, acompanhando as aulas, para consolidar conceitos de desenvolvimento de APIs em Node.js.*
